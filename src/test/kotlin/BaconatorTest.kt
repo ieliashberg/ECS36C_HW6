@@ -18,4 +18,11 @@ class BaconatorTest {
         assert(testpath[2] == "Kevin Bacon")
         println("$testpath")
     }
+    @Test
+    fun testCornerCases() {
+        val b = Baconator("moviedata.csv")
+        val testpath = b.getBaconpath("Kevin Bacon")
+        assert(testpath.size == 1)
+        println("$testpath")
+    }
 }

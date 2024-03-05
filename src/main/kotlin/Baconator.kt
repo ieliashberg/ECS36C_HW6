@@ -108,7 +108,7 @@ class Baconator (val filename: String) {
                         var currActor = actor
 
                         while (currActor != kevinBacon) {
-                            val link = backtrace[actor.name]
+                            val link = backtrace[currActor.name]
                             path.add(link!!.actor2.name)
                             path.add(link.movie.title)
                             currActor = link.actor1
@@ -152,5 +152,4 @@ class Baconator (val filename: String) {
                     }
                 }
         }
-
 }

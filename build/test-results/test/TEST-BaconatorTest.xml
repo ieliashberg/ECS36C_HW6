@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BaconatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-05T09:43:31" hostname="Ilans-MacBook-Pro.local" time="0.131">
+<testsuite name="BaconatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-03-05T18:17:31" hostname="Ilans-MacBook-Pro.local" time="0.212">
   <properties/>
-  <testcase name="executeBasicTest()" classname="BaconatorTest" time="0.131"/>
-  <system-out><![CDATA[3
-[Neil Fingleton, X-Men: First Class, Kevin Bacon]
+  <testcase name="testCornerCases()" classname="BaconatorTest" time="0.137"/>
+  <testcase name="executeBasicTest()" classname="BaconatorTest" time="0.073"/>
+  <system-out><![CDATA[[Kevin Bacon]
 [Neil Fingleton, X-Men: First Class, Kevin Bacon]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
