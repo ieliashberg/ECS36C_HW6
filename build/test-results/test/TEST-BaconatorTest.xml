@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BaconatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-03-05T09:43:31" hostname="Ilans-MacBook-Pro.local" time="0.131">
+  <properties/>
+  <testcase name="executeBasicTest()" classname="BaconatorTest" time="0.131"/>
+  <system-out><![CDATA[3
+[Neil Fingleton, X-Men: First Class, Kevin Bacon]
+[Neil Fingleton, X-Men: First Class, Kevin Bacon]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
